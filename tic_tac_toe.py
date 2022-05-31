@@ -1,3 +1,12 @@
+"""Tic Tac Toe Gaming App
+       In this gaming
+       we have 3X3 close metrix box  
+       |_1_|_2_|3
+       |_4_|_5_|6
+       | 7 | 8 |9
+       when we are select diagonal number like (1,5,9), (3,5,7) and stright line number like (1,4,7)
+       then we win otherwise you lost in this game.
+"""
 from itertools import permutations
 import sys
 import random
